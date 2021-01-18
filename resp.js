@@ -1,0 +1,11 @@
+const burger=document.querySelector('.burger')
+const navbar=document.querySelector('.navbar')
+const navList=document.querySelector('.nav-list')
+const rightNav=document.querySelector('.rightNav')
+burger.addEventListener("click",()=>{
+    console.log("DEVELOPED BY: VIKRAM TEJPAL")
+    console.log(("FOR MORE QUERIES OR BUSINESS CONTACT: vikram01628@gmail.com"))
+    rightNav.classList.toggle('v-class')
+    navList.classList.toggle('v-class')
+    navbar.classList.toggle('h-nav')
+})
